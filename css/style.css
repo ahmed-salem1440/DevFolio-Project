@@ -1,0 +1,461 @@
+* {
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: url(../images/asset\ 12.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#home .layer{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+#home .caption h1{
+    font-weight: 400;
+}
+header  h3::after{
+    content: "|";
+    animation-name: typing ;
+    animation-duration: 15s;
+    animation-iteration-count:infinite ;
+    
+}
+@keyframes typing {
+    0%{
+        content: "C|";
+    }
+    1%{
+        content: "CE|";
+    }
+    2%{
+        content: "CEO|";
+    }
+    3%{
+        content: "CEO |";
+    }
+    4%{
+        content: "CEO D|";
+    }
+    5%{
+        content: "CEO De|";
+    }
+    6%{
+        content: "CEO Dev|";
+    }
+    7%{
+        content: "CEO DevF|";
+    }
+    8%{
+        content: "CEO DevFo|";
+    }
+    9%{
+        content: "CEO DevFol|";
+    }
+    10%{
+        content: "CEO DevFoli|";
+    }
+    11%{
+        content: "CEO DevFolio|";
+    }
+    19%{
+        content: "CEO DevFoli|";
+    }
+    20%{
+        content: "CEO DevFol|";
+    }
+    21%{
+        content: "CEO DevFo|";
+    }
+    22%{
+        content: "CEO DevF|";
+    }
+    23%{
+        content: "CEO Dev|";
+    }
+    24%{
+        content: "CEO De|";
+    }
+    25%{
+        content: "CEO D|";
+    }
+    26%{
+        content: "CEO |";
+    }
+    37%{
+        content: "CEO|";
+    }
+    38%{
+        content: "CE|";
+    }
+    39%{
+        content: "C|";
+    }
+    40%{
+        content: "|";
+    }
+    41%{
+        content: "W|";
+    }
+    42%{
+        content: "We|";
+    }
+    43%{
+        content: "Web|";
+    }
+    44%{
+        content: "Web |";
+    }
+    45%{
+        content: "Web D|";
+    }
+    46%{
+        content: "Web De|";
+    }
+    47%{
+        content: "Web Des|";
+    }
+    48%{
+        content: "Web Desi|";
+    }
+    49%{
+        content: "Web Desig|";
+    }
+    50%{
+        content: "Web Design|";
+    }
+    51%{
+        content: "Web Designe|";
+    }
+    52%{
+        content: "Web Designer|";
+    }
+    59%{
+        content: "Web Designe|";
+    }
+    60%{
+        content: "Web Design|";
+    }
+    61%{
+        content: "Web Desig|";
+    }
+    62%{
+        content: "Web Desi|";
+    }
+    63%{
+        content: "Web Des|";
+    }
+    64%{
+        content: "Web De|";
+    }
+    65%{
+        content: "Web D|";
+    }
+    66%{
+        content: "Web |";
+    }
+    67%{
+        content: "Web|";
+    }
+    68%{
+        content: "We|";
+    }
+    69%{
+        content: "W|";
+    }
+    70%{
+        content: "|";
+    }
+    71%{
+        content: "G|";
+    }
+    72%{
+        content: "Gr|";
+    }
+    73%{
+        content: "Gra|";
+    }
+    74%{
+        content: "Grap|";
+    }
+    75%{
+        content: "Graph|";
+    }
+    76%{
+        content: "Graphi|";
+    }
+    77%{
+        content: "Graphic|";
+    }
+    78%{
+        content: "Graphic |";
+    }
+    79%{
+        content: "Graphic D|";
+    }
+    80%{
+        content: "Graphic De|";
+    }
+    81%{
+        content: "Graphic Des|";
+    }
+    82%{
+        content: "Graphic Desi|";
+    }
+    83%{
+        content: "Graphic Desig|";
+    }
+    84%{
+        content: "Graphic Design|";
+    }
+    85%{
+        content: "Graphic Designe|";
+    }
+    86%{
+        content: "Graphic Designer|";
+    }
+    92%{
+        content: "Graphic Designe|";
+    }
+    93%{
+        content: "Graphic Design|";
+    }
+    93.5%{
+        content: "Graphic Desig|";
+    }
+    94%{
+        content: "Graphic Desi|";
+    }
+    94.5%{
+        content: "Graphic Des|";
+    }
+    95%{
+        content: "Graphic De|";
+    }
+    95.5%{
+        content: "Graphic D|";
+    }
+    96%{
+        content: "Graphic |";
+    }
+    96.5%{
+        content: "Graphic|";
+    }
+    97%{
+        content: "Graphi|";
+    }
+    97.5%{
+        content: "Graph|";
+    }
+    98%{
+        content: "Grap|";
+    }
+    98.5%{
+        content: "Gra|";
+    }
+    99%{
+        content: "Gr|";
+    }
+    99.5%{
+        content: "G|";
+    }
+    100%{
+        content: "|";
+    }
+}
+/* .blue{
+    background-color: blue;
+} */
+#about,#services,#portfolio,#blog{
+    background-color: #F5F5F5;
+}
+#about .about h6{
+    color: black;
+}
+#about .card2 h3::after{
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+#services h2::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #0078ff;
+    top: 200%;
+    left: 50%;
+    translate: calc(-50%);
+}
+#services .container .icon{
+    width: 100px;
+    height: 100px;
+    border: 8px solid #0078ff;
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+#services .container .icon:hover{
+    border: 8px solid #F5F5F5;
+    background-color: #0078ff;
+}
+#services .container .icon:hover i{
+    color: white;
+    background-color: #0078ff;
+}
+#counts{
+    height: 400px;
+    background-image: url(../images/asset\ 13.jpeg);
+    background-attachment: fixed;
+}
+#counts .layer{
+    background-color: #0077ff6d;
+}
+#counts .layer .container .count .icon{
+    width: 80px;
+    height: 80px;
+    border: 10px solid #cde1f8;
+    border-radius: 40px;
+}
+#counts .layer .container .count .icon i{
+    color: #cde1f8;
+}
+#counts .layer .count h3,h6{
+    color: #cde1f8;
+}
+#portfolio p::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #0078ff;
+    top: 140%;
+    left: 50%;
+    translate: calc(-50%);
+}
+#portfolio .container .icon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0078ff ;
+    border-radius: 15px;
+}
+#portfolio .container .icon i{
+    color: #0078ff;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+#portfolio .container .card-div img{
+    transition: all 1s;
+}
+#portfolio .container .card-div:hover img{
+    scale: 1.3;
+}
+#feed-back{
+    background-image: url(../images/asset\ 14.jpeg);
+    background-attachment: fixed;
+    height: 600px;
+}
+#feed-back .layer{
+    background-color: #0077ff97;
+}
+#feed-back .layer .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+#feed-back .layer .icon i{
+    color:#0078ff ;
+}
+#blog p::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #0078ff;
+    top: 140%;
+    left: 50%;
+    translate: calc(-50%);
+}
+
+#blog .container .row .div1 .card-div{
+    border: solid 1px rgba(128, 128, 128, 0.327);
+    border-radius:0px 0px 5px 5px ;
+}
+#blog .container .row .div1 .card-div button{
+    background-color: #0078ff;
+    top: -8%;
+    left: 35%;
+}
+.un img{
+    width: 30px;
+    height: 30px;
+}
+.time-div{
+    background-color: #F5F5F5;
+}
+#contact{
+    background-image: url(../images/asset\ 14.jpeg);
+    height: 800px;
+    background-attachment: fixed;
+}
+#contact .layer{
+    background-color: #0077ffa4;
+}
+#contact .layer .container  h2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #0078ff;
+    top: 120%;
+    left: 9%;
+    translate: calc(-50%);
+}
+#contact .layer .container .form input{
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px rgba(0, 0, 0, 0.416);
+}
+#contact .layer .container .form textarea{
+    border-radius: 3px;
+    border: solid 1px rgba(0, 0, 0, 0.416);
+}
+#contact .layer .container .form button{
+    background-color: #0078ff;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    transition: all 0.5s;
+}
+#contact .layer .container .form button:hover{
+    background-color: #0078ff;
+    border: 5px solid #cde1f8;
+    border-radius: 30px;
+}
+#contact .icons .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 3px #0078ff;
+    transition: all 0.5s;
+}
+#contact .icons .icon:hover {
+    border-radius: 25px;
+    border: solid 3px #cde1f8;
+    background-color: #0078ff;
+}
+#contact .icons .icon:hover i{
+    color: white;
+}
+
+@media all and (max-width:768px) {
+    #contact{
+        height: 1600px;
+    }
+}
